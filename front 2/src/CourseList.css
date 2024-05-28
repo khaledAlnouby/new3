@@ -1,0 +1,31 @@
+.course-list-container {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.course-list-container h2 {
+    color: #333;
+}
+
+.course-list-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.course-list-container li {
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+.course-list-container li:hover {
+    background-color: #e9ecef;
+}
+
+.error-message {
+    color: red;
+}
